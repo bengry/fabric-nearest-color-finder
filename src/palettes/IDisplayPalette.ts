@@ -1,6 +1,6 @@
-import { IPalette } from "@uifabric/styling";
+import { IPalette } from '@uifabric/styling';
 
 export interface IDisplayPalette {
-    displayName: string;
-    palette: IPalette;
+  displayName: string;
+  palette: IPalette;
 }

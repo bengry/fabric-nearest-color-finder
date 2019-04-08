@@ -3,13 +3,14 @@ import React from 'react';
 import './App.css';
 
 import { FabricPalette } from './palettes/fabric';
-import { IDisplayPalette } from './palettes/IDisplayPalette';
 import { FluentPalette } from './palettes/fluent';
+import { IDisplayPalette } from './palettes/IDisplayPalette';
+import { M365Palette } from './palettes/m365';
+import { PaletteContainer } from './components/PaletteContainer';
 import { Palettes } from './components/Palettes';
 import { SelectedPaletteContext } from './context/SelectedPaletteContext';
-import { Palette } from './components/Palette';
 
-const palettes: IDisplayPalette[] = [FabricPalette, FluentPalette];
+const palettes: IDisplayPalette[] = [FabricPalette, FluentPalette, M365Palette];
 
 export function App() {
   const [selectedPalette, setSelectedPalette] = React.useState<IDisplayPalette>(FabricPalette);
@@ -17,7 +18,7 @@ export function App() {
   return (
     <SelectedPaletteContext.Provider value={{ selectedPalette, setSelectedPalette }}>
       <Palettes palettes={palettes} />
-      <Palette palette={selectedPalette} />
+      <PaletteContainer />
     </SelectedPaletteContext.Provider>
   );
 }

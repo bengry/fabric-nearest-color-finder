@@ -10,6 +10,7 @@
     "@uifabric/fluent-theme": "^0.16.4",
     "@uifabric/styling": "^6.45.2",
     "lodash": "^4.17.11",
+    "nearest-colors": "^1.0.0",
     "office-ui-fabric-react": "^6.164.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

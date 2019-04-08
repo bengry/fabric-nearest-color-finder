@@ -1,7 +1,7 @@
 import { FluentTheme } from '@uifabric/fluent-theme';
-import { IDisplayPalette } from "./IDisplayPalette";
+import { IDisplayPalette } from './IDisplayPalette';
 
 export const FluentPalette: IDisplayPalette = {
-    displayName: 'Fluent',
-    palette: FluentTheme.palette
+  displayName: 'Fluent',
+  palette: FluentTheme.palette,
 };
