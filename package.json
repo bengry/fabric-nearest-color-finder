@@ -7,9 +7,14 @@
     "@types/node": "11.13.0",
     "@types/react": "16.8.13",
     "@types/react-dom": "16.8.3",
+    "@uifabric/fluent-theme": "^0.16.4",
+    "@uifabric/styling": "^6.45.2",
+    "lodash": "^4.17.11",
+    "office-ui-fabric-react": "^6.164.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
+    "styled-components": "^4.2.0",
     "typescript": "3.4.2"
   },
   "scripts": {
@@ -26,5 +31,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/styled-components": "^4.1.13",
+    "prettier": "^1.16.4"
+  }
 }

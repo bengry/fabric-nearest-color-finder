@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+import { FabricPalette } from './palettes/fabric';
+import { IDisplayPalette } from './palettes/IDisplayPalette';
+import { FluentPalette } from './palettes/fluent';
+import { Palettes } from './components/Palettes';
+import { SelectedPaletteContext } from './context/SelectedPaletteContext';
 
-export default App;
+const palettes: IDisplayPalette[] = [FabricPalette, FluentPalette];
+
+export function App() {
+    const [selectedPalette, setSelectedPalette] = React.useState<IDisplayPalette>(FabricPalette);
+
+    return (
+        <SelectedPaletteContext.Provider value={{selectedPalette, setSelectedPalette}}>
+            <Palettes palettes={palettes}/>
+        </SelectedPaletteContext.Provider>
+    );
+}
