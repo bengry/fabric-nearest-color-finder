@@ -32,6 +32,7 @@ const OutputStyle = styled.div`
   display: grid;
   grid-auto-flow: column;
   grid-gap: 10px;
+  grid-auto-columns: max-content;
 `;
 
 interface ColorBoxProps {
