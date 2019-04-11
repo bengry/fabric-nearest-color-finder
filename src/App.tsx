@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './App.css';
-
 import { FabricPalette } from './palettes/fabric';
 import { FluentPalette } from './palettes/fluent';
 import { IDisplayPalette } from './palettes/IDisplayPalette';
