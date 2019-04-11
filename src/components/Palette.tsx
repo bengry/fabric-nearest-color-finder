@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { IDisplayPalette } from '../palettes/IDisplayPalette';
-import { DetailsList, IColumn, SelectionMode } from 'office-ui-fabric-react';
+import { DetailsList, IColumn, SelectionMode, IPalette } from 'office-ui-fabric-react';
 
 export interface PaletteProps {
-  palette: IDisplayPalette;
+  palette: IPalette;
+}
+
+export function Palette({ palette }: PaletteProps) {
+  const paletteItems = Object.entries(palette).map(([name, rawColor]) => ({ name, rawColor }));
+  return <DetailsList items={paletteItems} compact columns={columns} selectionMode={SelectionMode.none} />;
 }
 
 interface PaletteItem {
@@ -50,8 +54,3 @@ const columns: IColumn[] = [
     fieldName: 'rawColor' as keyof PaletteItem,
   },
 ];
-
-export function Palette({ palette }: PaletteProps) {
-  const paletteItems = Object.entries(palette.palette).map(([name, rawColor]) => ({ name, rawColor }));
-  return <DetailsList items={paletteItems} compact columns={columns} selectionMode={SelectionMode.none} />;
-}
