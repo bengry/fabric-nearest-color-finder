@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7e27d30949dd16455cd5",
-    "url": "/fabric-nearest-color-finder/static/css/main.28ffe46f.chunk.css"
+    "revision": "1c04755fa4febe9c3d67",
+    "url": "/fabric-nearest-color-finder/static/css/main.d8102961.chunk.css"
   },
   {
-    "revision": "7e27d30949dd16455cd5",
-    "url": "/fabric-nearest-color-finder/static/js/main.4400b477.chunk.js"
+    "revision": "1c04755fa4febe9c3d67",
+    "url": "/fabric-nearest-color-finder/static/js/main.234f93b5.chunk.js"
   },
   {
     "revision": "f33c47b828213d09f696",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/fabric-nearest-color-finder/static/js/2.170cb49e.chunk.js"
   },
   {
-    "revision": "98047b86785c00fb4c5f30b9f2945d8a",
+    "revision": "de731d7b38b38aef82d80c56706153f5",
     "url": "/fabric-nearest-color-finder/index.html"
   }
 ];
