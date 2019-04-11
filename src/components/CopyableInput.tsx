@@ -10,7 +10,9 @@ export function CopyableInput(props: CopyableInputProps) {
     <TextField
       {...props}
       styles={{
-        suffix: { backgroundColor: 'inherit' },
+        prefix: { marginRight: '8px' },
+        field: { padding: '0' },
+        suffix: { backgroundColor: 'inherit', padding: 0, marginLeft: '8px' },
       }}
       onRenderSuffix={() => {
         return (

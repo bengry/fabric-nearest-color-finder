@@ -29,8 +29,9 @@ export const Output: React.FC<OutputProps> = ({ color }) => {
 };
 
 const OutputStyle = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
 `;
 
 interface ColorBoxProps {
