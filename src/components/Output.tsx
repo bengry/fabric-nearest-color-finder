@@ -16,7 +16,7 @@ export interface OutputProps {
 export const Output: React.FC<OutputProps> = ({ color }) => {
   return (
     <OutputStyle>
-      <CopyableInput readOnly borderless label="Display name:" value={color ? color.displayName : ''} />
+      <CopyableInput readOnly borderless label="Semantic name:" value={color ? color.displayName : ''} />
       <CopyableInput
         readOnly
         borderless
