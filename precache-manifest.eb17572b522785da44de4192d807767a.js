@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/fabric-nearest-color-finder/static/js/runtime~main.9b3ea5da.js"
   },
   {
-    "revision": "f579aa01d0d9a77dd591",
-    "url": "/fabric-nearest-color-finder/static/js/2.e5f09958.chunk.js"
+    "revision": "715b769c30d2991df35e",
+    "url": "/fabric-nearest-color-finder/static/js/2.170cb49e.chunk.js"
   },
   {
-    "revision": "c9747db118bec4a47800b82b20269f48",
+    "revision": "de731d7b38b38aef82d80c56706153f5",
     "url": "/fabric-nearest-color-finder/index.html"
   }
 ];

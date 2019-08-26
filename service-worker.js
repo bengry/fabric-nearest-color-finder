@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fabric-nearest-color-finder/precache-manifest.61c232432d794ff2a386b5a5028e4ded.js"
+  "/fabric-nearest-color-finder/precache-manifest.eb17572b522785da44de4192d807767a.js"
 );
 
 workbox.clientsClaim();
