@@ -1,0 +1,11 @@
+---
+application:
+  name: "fabric-nearest-color-finder"
+  project: "test-project"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-fabric-nearest-color-finder"
+  routes:
+  - application_name: "fabric-nearest-color-finder"
+    paths:
+    - "/*"
