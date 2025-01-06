@@ -12,7 +12,7 @@
     "@uifabric/fluent-theme": "^0.16.4",
     "@uifabric/styling": "^6.45.2",
     "clipboard-copy": "^3.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "nearest-colors": "^1.0.0",
     "office-ui-fabric-react": "^6.165.0",
     "react": "^16.8.6",
